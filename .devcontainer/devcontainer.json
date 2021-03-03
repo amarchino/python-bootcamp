@@ -46,6 +46,8 @@
 	"remoteUser": "vscode",
 
 	"mounts": [
-		"source=/home/marchino/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+		"source=/home/marchino/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached",
+		"source=vscode-extensions,target=/home/vscode/.vscode-server/extensions,type=volume",
+		"source=vscode-extensions-insiders,target=/home/vscode/.vscode-server-insiders/extensions,type=volume"
 	]
 }
