@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./section-09/lesson-078",
+        "./section-09/lesson-079"
+    ]
+}
